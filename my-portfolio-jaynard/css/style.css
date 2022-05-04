@@ -1,0 +1,9 @@
+body{
+
+}
+p.m-0{
+	height:620px;
+	width: 100%;
+	margin: 0!important;
+  background: linear-gradient(to right, #7c6cfc, #8af4fc);
+}

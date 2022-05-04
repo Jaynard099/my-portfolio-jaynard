@@ -1,0 +1,123 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+body{
+	margin: auto;
+}
+div h1{
+	color: red;
+	font-family: calibri;
+}
+div label{
+	color: red;
+}
+div.form-group{
+	background-color: lightgrey;
+  border: 15px grey;
+  box-shadow: 5px 5px #888888;
+}
+div button a{
+	text-decoration: none;
+	font-family: calibri;
+	color: red;
+}
+section{
+  height:800px;
+  background: linear-gradient(to right, #7776ff, #87ebff);
+}
+.progress-bar{
+	background: linear-gradient(to right, #7776ff, #87ebff);
+}
+div img{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.btn-primary{
+	margin: .3%;
+	width: 90px;
+	height: 55px;
+	background-color: darkblue;
+}
+/*yung dito naman kaya siya dalawa h2 and p  yung , o comma and yung meaning non so silang dalawa naka center sa gitna.*/
+h2,p{
+	text-align: center;
+}
+nav a.btn{
+	 padding: 15px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  font-size: 13px;
+}
+nav a.navbar-brand{
+  font-size: 19px!important;
+}
+* {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*------------------------------------------------DIV CONTAINER-----------------*/
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 68px;
+}
+.container1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 68px;
+}
+div p{
+	text-align: left;
+}
+.icon-violet{
+	color: #8675ff;
+}
+.col{
+	margin: 30px;
+}
+.title-text{
+	font-weight: 600;
+}
+/*or*/
+div.col{
+
+}
+span.fs-4{
+	font-weight: 600;
+	
+}
+span{
+	transform: translate(-41px,-13px)!important;
+}
+
+ul li a{
+	font-family: arial;
+	font-size: 10px!important;
+	font-weight: 10px;
+	transform: translate(0px,-10px);
+	letter-spacing: 2px;
+}
+.h11{
+	font-weight: 600;
+}
+h5{
+	font-weight: 600;
+	text-transform: uppercase;
+}
